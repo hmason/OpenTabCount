@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+<Description about="urn:mozilla:install-manifest">
+  <em:id>tabcount@3greeneggs.com</em:id>
+  <em:version>1.1</em:version>
+  <em:type>2</em:type>
+
+  <!-- Target Application this extension can install into,
+       with minimum and maximum supported versions. -->
+  <em:targetApplication>
+    <Description>
+      <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+      <em:minVersion>2.0</em:minVersion>
+      <em:maxVersion>3.5.*</em:maxVersion>
+    </Description>
+  </em:targetApplication>
+
+  <!-- Front End MetaData -->
+  <em:name>Open Tab Count</em:name>
+  <em:description>This extension displays the number of open tabs for each window and the total number of open tabs (in all windows) in the status bar.</em:description>
+  <em:creator>Hilary Mason</em:creator>
+  <em:homepageURL>http://www.hilarymason.com/</em:homepageURL>
+  </Description>
+</RDF>

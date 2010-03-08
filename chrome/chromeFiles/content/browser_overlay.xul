@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://tabcount/content/tabcount.css" type="text/css"?>
+<overlay id="tabcount" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://tabcount/content/tabcount.js" />
+	<statusbar id="status-bar">
+		<statusbarpanel id="tabcount" class="statusbarpanel-iconic-text">
+			<image src="chrome://tabcount/content/folder_navy.png" />
+			<label id="tabcount_label" value="0" />
+			<label id="tabcount_sep" value="/" />
+			<label id="tabcount_total_label" value="0" />
+		</statusbarpanel>
+
+	</statusbar>
+
+</overlay>

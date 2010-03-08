@@ -1,0 +1,2 @@
+content   tabcount   chrome/chromeFiles/content/
+overlay   chrome://browser/content/browser.xul   chrome://tabcount/content/browser_overlay.xul

@@ -1,0 +1,5 @@
+/* CSS file for the Open Tab Count extension */
+
+#tabcount { color:#CC3300; }
+#tabcount label { margin:0px; }
+#tabcount_label { margin-left:0px; }
